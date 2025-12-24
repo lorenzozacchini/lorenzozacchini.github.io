@@ -49,28 +49,29 @@ h1, h2 {
     font-family: 'Merriweather', serif;
 }
 
-       .header {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 50px;
+       .header-centered {
+    text-align: center;
+    margin-bottom: 60px;
 }
 
-.header-photo img {
-    width: 260px;
+.header-centered img {
+    width: 300px;
+    max-width: 90%;
     height: auto;
-    border-radius: 6px;
+    border-radius: 8px;
+    margin-bottom: 25px;
 }
 
-.header-text h1 {
-    margin: 0;
+.header-centered h1 {
+    margin-bottom: 5px;
 }
 
-.header-text p {
-    margin-top: 8px;
+.header-centered p {
+    margin-top: 0;
     font-size: 1.05em;
     color: #444;
 }
+
         h1 {
             margin-bottom: 0;
         }
@@ -95,16 +96,12 @@ h1, h2 {
 
 <body>
 
-    <header class="header">
-    <div class="header-photo">
-        <img src="photo-lecture.jpg" alt="Lorenzo Zacchini lecturing at the blackboard">
-    </div>
-    <div class="header-text">
-        <h1>Lorenzo Zacchini</h1>
-        <p>Doctoral Researcher in Mathematics<br>
-        Aalto University</p>
-    </div>
+    <header class="header-centered">
+    <img src="photo-lecture.jpg" alt="Lorenzo Zacchini lecturing at the blackboard">
+    <h1>Lorenzo Zacchini</h1>
+    <p>Doctoral Researcher in Mathematics · Aalto University</p>
 </header>
+
 
     <h2>About Me</h2>
     <p>
